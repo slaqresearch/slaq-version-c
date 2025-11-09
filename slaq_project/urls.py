@@ -7,7 +7,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('core.urls')),              # Auth & dashboard
     path('diagnosis/', include('diagnosis.urls')),  # Audio & analysis
-    path('reports/', include('reports.urls')),     # Reports (future)
 ]
 
 # Serve media files in development

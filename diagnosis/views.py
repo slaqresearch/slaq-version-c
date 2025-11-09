@@ -7,7 +7,7 @@ from django.utils import timezone
 from django.conf import settings
 from django.db.models import Avg, Count, Q
 
-from .models import AudioRecording, AnalysisResult, StutterEvent
+from .models import AudioRecording, AnalysisResult
 from .tasks import process_audio_recording
 from core.models import Patient
 
@@ -35,8 +35,8 @@ def upload_recording(request):
         if not audio_file:
             return JsonResponse({'error': 'No audio file provided'}, status=400)
         
-        if audio_file.size > settings.MAX_AUDIO_FILE_SIZE:
-            max_size_mb = settings.MAX_AUDIO_FILE_SIZE / (1024*1024)
+        if audio_file.size > settings.MAX_UPLOAD_SIZE:
+            max_size_mb = settings.MAX_UPLOAD_SIZE / (1024*1024)
             return JsonResponse({'error': f'File too large. Max size: {max_size_mb}MB'}, status=400)
         
         file_ext = os.path.splitext(audio_file.name)[1].lower()
@@ -131,16 +131,10 @@ def analysis_detail(request, analysis_id):
     try:
         patient = request.user.patient_profile
         analysis = get_object_or_404(AnalysisResult, id=analysis_id, recording__patient=patient)
-        events = analysis.events.all().order_by('start_time')
-        total_events = events.count()
-        event_types = events.values('event_type').annotate(count=Count('event_type'))
         
         context = {
             'analysis': analysis,
             'recording': analysis.recording,
-            'events': events,
-            'total_events': total_events,
-            'event_types': event_types,
         }
         
         return render(request, 'diagnosis/analysis_detail.html', context)

@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load static %}
 
 {% block title %}Analysis Results - SLAQ{% endblock %}
 
@@ -255,12 +256,13 @@
 <script>
     // Initialize chart with analysis data
     document.addEventListener('DOMContentLoaded', function() {
+        // eslint-disable-next-line
         const chartData = {
-            mismatchPercentage: {{ analysis.mismatch_percentage }},
-            confidenceScore: {{ analysis.confidence_score }},
-            ctcLoss: {{ analysis.ctc_loss_score }},
-            stutterFrequency: {{ analysis.stutter_frequency }},
-            totalEvents: {{ total_events }}
+            mismatchPercentage: parseFloat("{{ analysis.mismatch_percentage }}"),
+            confidenceScore: parseFloat("{{ analysis.confidence_score }}"),
+            ctcLoss: parseFloat("{{ analysis.ctc_loss_score }}"),
+            stutterFrequency: parseFloat("{{ analysis.stutter_frequency }}"),
+            totalEvents: parseInt("{{ total_events }}")
         };
         
         initAnalysisChart(chartData);

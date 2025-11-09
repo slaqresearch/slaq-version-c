@@ -32,38 +32,52 @@ def register(request):
 def dashboard(request):
     """Patient dashboard"""
     try:
+        # Get or create patient profile
         patient = request.user.patient_profile
-        
-        # Get recordings
-        recordings = AudioRecording.objects.filter(patient=patient).order_by('-recorded_at')[:5]
-        total_recordings = AudioRecording.objects.filter(patient=patient).count()
-        
-        # Get completed analyses
-        completed = recordings.filter(status='completed')
-        latest_analysis = None
-        if completed.exists():
-            latest_recording = completed.first()
-            latest_analysis = getattr(latest_recording, 'analysis', None)
-        
-        # Calculate stats
-        pending_count = AudioRecording.objects.filter(patient=patient, status='pending').count()
-        processing_count = AudioRecording.objects.filter(patient=patient, status='processing').count()
-        
-        context = {
-            'patient': patient,
-            'recordings': recordings,
-            'total_recordings': total_recordings,
-            'completed_count': completed.count(),
-            'pending_count': pending_count,
-            'processing_count': processing_count,
-            'latest_analysis': latest_analysis,
-        }
-        
-        return render(request, 'core/dashboard.html', context)
-        
-    except Exception as e:
-        messages.error(request, f'Error loading dashboard: {e}')
-        return redirect('core:home')
+    except Exception:
+        # Patient profile doesn't exist - redirect to profile creation or show error
+        messages.error(request, 'Patient profile not found. Please contact support or complete your profile.')
+        return render(request, 'core/dashboard.html', {
+            'patient': None,
+            'recordings': [],
+            'total_recordings': 0,
+            'completed_count': 0,
+            'pending_count': 0,
+            'processing_count': 0,
+            'latest_analysis': None,
+        })
+    
+    # Get all recordings for patient (don't slice yet)
+    all_recordings = AudioRecording.objects.filter(patient=patient).order_by('-recorded_at')
+    
+    # Get total count
+    total_recordings = all_recordings.count()
+    
+    # Get completed analyses
+    completed = all_recordings.filter(status='completed')
+    latest_analysis = None
+    if completed.exists():
+        latest_recording = completed.first()
+        latest_analysis = getattr(latest_recording, 'analysis', None)
+    
+    # Calculate stats
+    pending_count = all_recordings.filter(status='pending').count()
+    processing_count = all_recordings.filter(status='processing').count()
+    
+    # Get recent recordings (slice LAST after all filtering)
+    recent_recordings = all_recordings[:5]
+    
+    context = {
+        'patient': patient,
+        'recordings': recent_recordings,
+        'total_recordings': total_recordings,
+        'completed_count': completed.count(),
+        'pending_count': pending_count,
+        'processing_count': processing_count,
+        'latest_analysis': latest_analysis,
+    }
+    
+    return render(request, 'core/dashboard.html', context)
 
 
 @login_required
@@ -71,18 +85,18 @@ def profile(request):
     """View patient profile"""
     try:
         patient = request.user.patient_profile
-        
-        # Get total recordings and analyses
-        total_recordings = AudioRecording.objects.filter(patient=patient).count()
-        completed_analyses = AudioRecording.objects.filter(patient=patient, status='completed').count()
-        
-        context = {
-            'patient': patient,
-            'total_recordings': total_recordings,
-            'completed_analyses': completed_analyses,
-        }
-        
-        return render(request, 'core/profile.html', context)
-    except Exception as e:
-        messages.error(request, f'Error loading profile: {e}')
-        return redirect('core:dashboard')
+    except Exception:
+        messages.error(request, 'Patient profile not found. Please complete registration.')
+        return redirect('core:home')
+    
+    # Get total recordings and analyses
+    total_recordings = AudioRecording.objects.filter(patient=patient).count()
+    completed_analyses = AudioRecording.objects.filter(patient=patient, status='completed').count()
+    
+    context = {
+        'patient': patient,
+        'total_recordings': total_recordings,
+        'completed_analyses': completed_analyses,
+    }
+    
+    return render(request, 'core/profile.html', context)

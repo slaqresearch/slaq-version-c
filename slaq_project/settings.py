@@ -23,21 +23,15 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     
     # Third party
-    'rest_framework',
-    'rest_framework_simplejwt',
-    'corsheaders',
     'django_celery_results',
-    'django_celery_beat',
     
     # Local apps
     'core.apps.CoreConfig',
     'diagnosis.apps.DiagnosisConfig',
-    'reports.apps.ReportsConfig',
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -109,41 +103,9 @@ LOGIN_URL = '/login/'
 LOGIN_REDIRECT_URL = '/dashboard/'
 LOGOUT_REDIRECT_URL = '/'
 
-# File Upload Settings
-MAX_AUDIO_FILE_SIZE = 10 * 1024 * 1024  # 10MB
-ALLOWED_AUDIO_FORMATS = ['.wav', '.mp3', '.webm', '.ogg', '.m4a']
-
-# REST Framework
-REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSES': (
-        'rest_framework_simplejwt.authentication.JWTAuthentication',
-    ),
-    'DEFAULT_PERMISSION_CLASSES': (
-        'rest_framework.permissions.IsAuthenticated',
-    ),
-    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
-    'PAGE_SIZE': 20,
-    'DEFAULT_FILTER_BACKENDS': [
-        'django_filters.rest_framework.DjangoFilterBackend',
-        'rest_framework.filters.SearchFilter',
-        'rest_framework.filters.OrderingFilter',
-    ],
-}
-
-# JWT Settings
-SIMPLE_JWT = {
-    'ACCESS_TOKEN_LIFETIME': timedelta(hours=1),
-    'REFRESH_TOKEN_LIFETIME': timedelta(days=7),
-    'ROTATE_REFRESH_TOKENS': True,
-    'BLACKLIST_AFTER_ROTATION': True,
-}
-
-# CORS Settings
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "http://127.0.0.1:3000",
-]
-CORS_ALLOW_CREDENTIALS = True
+# File Upload Settings (MVP: max 10MB)
+MAX_UPLOAD_SIZE = 10 * 1024 * 1024  # 10MB
+ALLOWED_AUDIO_FORMATS = ['.wav', '.mp3', '.webm', '.ogg']
 
 # Celery Configuration
 CELERY_BROKER_URL = os.getenv('CELERY_BROKER_URL', 'redis://localhost:6379/0')
@@ -156,12 +118,8 @@ CELERY_TIMEZONE = TIME_ZONE
 # AI Model Configuration
 AI_MODELS_DIR = BASE_DIR / 'ml_models'
 WAV2VEC2_BASE_MODEL = "facebook/wav2vec2-base-960h"
-WAV2VEC2_LARGE_MODEL = "facebook/wav2vec2-large-960h-lv60-self"
-WAV2VEC2_XLSR_MODEL = "jonatasgrosman/wav2vec2-large-xlsr-53-english"
 
 # Audio Processing Settings
-MAX_AUDIO_FILE_SIZE = 50 * 1024 * 1024  # 50MB
-ALLOWED_AUDIO_FORMATS = ['.wav', '.mp3', '.webm', '.m4a', '.ogg']
 AUDIO_SAMPLE_RATE = 16000
 
 # Stutter Detection Thresholds

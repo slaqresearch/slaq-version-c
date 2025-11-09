@@ -1,13 +1,16 @@
 # diagnosis/models.py
 from django.db import models
 from django.core.validators import MinValueValidator, MaxValueValidator
+from django.utils import timezone
 from core.models import Patient
 import os
 
 
 def audio_upload_path(instance, filename):
     """Generate upload path: recordings/patient_id/year/month/filename"""
-    return f'recordings/{instance.patient.id}/{instance.recorded_at.year}/{instance.recorded_at.month}/{filename}'
+    # Use current time since recorded_at might not be set yet
+    now = timezone.now()
+    return f'recordings/{instance.patient.id}/{now.year}/{now.month}/{filename}'
 
 
 class AudioRecording(models.Model):
@@ -52,7 +55,7 @@ class AudioRecording(models.Model):
 
 
 class AnalysisResult(models.Model):
-    """AI analysis results from stutter detection"""
+    """AI analysis results from stutter detection - MVP Simplified"""
     
     SEVERITY_CHOICES = [
         ('none', 'No Stuttering'),
@@ -67,7 +70,7 @@ class AnalysisResult(models.Model):
     actual_transcript = models.TextField(help_text="What the AI heard")
     target_transcript = models.TextField(help_text="What should have been said")
     
-    # Stutter Detection Metrics
+    # Stutter Detection Metrics (MVP)
     mismatched_chars = models.JSONField(
         default=list,
         help_text="List of stuttered character sequences"
@@ -78,20 +81,6 @@ class AnalysisResult(models.Model):
     )
     ctc_loss_score = models.FloatField(
         help_text="CTC Loss score - lower is better"
-    )
-    
-    # Stutter Timestamps
-    stutter_timestamps = models.JSONField(
-        default=list,
-        help_text="List of (start_second, end_second) tuples"
-    )
-    total_stutter_duration = models.FloatField(
-        default=0.0,
-        help_text="Total seconds of stuttering detected"
-    )
-    stutter_frequency = models.FloatField(
-        default=0.0,
-        help_text="Number of stutters per minute"
     )
     
     # Overall Assessment
@@ -129,33 +118,3 @@ class AnalysisResult(models.Model):
             'severe': '#ef4444',  # red
         }
         return colors.get(self.severity, '#6b7280')
-
-
-class StutterEvent(models.Model):
-    """Individual stutter event detected in recording"""
-    
-    EVENT_TYPES = [
-        ('repetition', 'Repetition'),
-        ('prolongation', 'Prolongation'),
-        ('block', 'Block'),
-        ('interjection', 'Interjection'),
-    ]
-    
-    analysis = models.ForeignKey(AnalysisResult, on_delete=models.CASCADE, related_name='events')
-    event_type = models.CharField(max_length=20, choices=EVENT_TYPES)
-    start_time = models.FloatField(help_text="Start time in seconds")
-    end_time = models.FloatField(help_text="End time in seconds")
-    duration = models.FloatField(help_text="Duration in seconds")
-    affected_text = models.CharField(max_length=200, help_text="Text affected by stutter")
-    confidence = models.FloatField(
-        validators=[MinValueValidator(0.0), MaxValueValidator(1.0)]
-    )
-    
-    class Meta:
-        ordering = ['start_time']
-        indexes = [
-            models.Index(fields=['analysis', 'start_time']),
-        ]
-    
-    def __str__(self):
-        return f"{self.event_type} at {self.start_time:.2f}s - '{self.affected_text}'"
