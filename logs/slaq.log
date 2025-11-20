@@ -1,0 +1,1044 @@
+INFO 2025-11-09 19:05:34,095 autoreload Watching for file changes with StatReloader
+INFO 2025-11-09 19:05:55,732 autoreload C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\slaq_project\wsgi.py changed, reloading.
+INFO 2025-11-09 19:05:56,180 autoreload Watching for file changes with StatReloader
+INFO 2025-11-09 19:05:58,443 autoreload C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\slaq_project\wsgi.py changed, reloading.
+INFO 2025-11-09 19:05:58,881 autoreload Watching for file changes with StatReloader
+INFO 2025-11-09 19:06:03,096 basehttp "GET / HTTP/1.1" 200 9045
+INFO 2025-11-09 19:06:03,168 basehttp "GET /static/css/main.css HTTP/1.1" 200 4727
+INFO 2025-11-09 19:06:03,168 basehttp "GET /static/js/main.js HTTP/1.1" 200 8914
+WARNING 2025-11-09 19:06:03,534 log Not Found: /favicon.ico
+WARNING 2025-11-09 19:06:03,534 basehttp "GET /favicon.ico HTTP/1.1" 404 3602
+INFO 2025-11-09 19:06:09,399 basehttp "GET /register/ HTTP/1.1" 200 10146
+INFO 2025-11-09 19:06:18,711 autoreload C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\slaq_project\__init__.py changed, reloading.
+INFO 2025-11-09 19:06:44,025 autoreload Watching for file changes with StatReloader
+INFO 2025-11-09 19:06:45,955 basehttp "GET / HTTP/1.1" 200 9045
+INFO 2025-11-09 19:06:50,181 basehttp "GET / HTTP/1.1" 200 9045
+INFO 2025-11-09 19:06:54,390 basehttp "GET /register/ HTTP/1.1" 200 10146
+INFO 2025-11-09 19:07:29,387 basehttp "POST /register/ HTTP/1.1" 200 10535
+INFO 2025-11-09 19:07:37,274 basehttp "GET /register/ HTTP/1.1" 200 10146
+INFO 2025-11-09 19:07:37,696 basehttp "GET /login/ HTTP/1.1" 200 7788
+INFO 2025-11-09 19:07:41,394 basehttp "POST /login/ HTTP/1.1" 200 8264
+INFO 2025-11-09 19:07:47,512 basehttp "POST /login/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:47,545 basehttp "GET /dashboard/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:47,692 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:47,728 basehttp "GET /dashboard/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:47,759 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:47,790 basehttp "GET /dashboard/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:47,822 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:47,854 basehttp "GET /dashboard/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:47,884 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:47,919 basehttp "GET /dashboard/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:47,949 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:47,999 basehttp "GET /dashboard/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:48,038 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:48,070 basehttp "GET /dashboard/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:48,100 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:48,131 basehttp "GET /dashboard/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:48,162 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:48,196 basehttp "GET /dashboard/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:48,228 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:48,261 basehttp "GET /dashboard/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:49,335 basehttp - Broken pipe from ('127.0.0.1', 62227)
+INFO 2025-11-09 19:07:49,338 basehttp "GET /dashboard/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:49,370 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:49,410 basehttp "GET /dashboard/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:49,444 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:49,479 basehttp "GET /dashboard/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:49,627 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:49,661 basehttp "GET /dashboard/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:49,692 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:49,724 basehttp "GET /dashboard/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:49,756 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:49,787 basehttp "GET /dashboard/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:49,820 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:49,851 basehttp "GET /dashboard/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:49,882 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:49,914 basehttp "GET /dashboard/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:49,945 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:49,977 basehttp "GET /dashboard/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:50,009 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:50,041 basehttp "GET /dashboard/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:50,072 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:55,134 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:55,167 basehttp "GET /dashboard/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:55,198 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:55,229 basehttp "GET /dashboard/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:55,260 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:55,306 basehttp "GET /dashboard/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:55,344 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:55,376 basehttp "GET /dashboard/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:55,407 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:55,438 basehttp "GET /dashboard/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:55,469 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:55,502 basehttp "GET /dashboard/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:55,534 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:55,574 basehttp "GET /dashboard/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:55,606 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:55,638 basehttp "GET /dashboard/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:55,675 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:55,709 basehttp "GET /dashboard/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:55,744 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:07:55,777 basehttp "GET /dashboard/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:08:23,944 basehttp "GET /login/ HTTP/1.1" 200 48539
+INFO 2025-11-09 19:08:27,551 autoreload C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\slaq_project\urls.py changed, reloading.
+INFO 2025-11-09 19:08:28,002 autoreload Watching for file changes with StatReloader
+INFO 2025-11-09 19:08:29,261 autoreload C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\core\views.py changed, reloading.
+INFO 2025-11-09 19:08:29,682 autoreload Watching for file changes with StatReloader
+INFO 2025-11-09 19:08:31,808 basehttp "GET /dashboard/ HTTP/1.1" 200 12397
+ERROR 2025-11-09 19:08:34,990 log Internal Server Error: /diagnosis/record/
+Traceback (most recent call last):
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\diagnosis\views.py", line 23, in record_audio
+    return render(request, 'diagnosis/record.html')
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 142: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2025-11-09 19:08:34,991 basehttp "GET /diagnosis/record/ HTTP/1.1" 500 187672
+INFO 2025-11-09 19:08:38,199 autoreload C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\core\views.py changed, reloading.
+INFO 2025-11-09 19:08:38,651 autoreload Watching for file changes with StatReloader
+ERROR 2025-11-09 19:08:40,840 log Internal Server Error: /diagnosis/record/
+Traceback (most recent call last):
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\diagnosis\views.py", line 23, in record_audio
+    return render(request, 'diagnosis/record.html')
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 142: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2025-11-09 19:08:40,842 basehttp "GET /diagnosis/record/ HTTP/1.1" 500 187672
+INFO 2025-11-09 19:08:45,100 autoreload C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\core\views.py changed, reloading.
+INFO 2025-11-09 19:08:45,544 autoreload Watching for file changes with StatReloader
+INFO 2025-11-09 19:09:15,695 autoreload Watching for file changes with StatReloader
+INFO 2025-11-09 19:09:17,175 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:09:17,223 basehttp "GET /dashboard/ HTTP/1.1" 200 12397
+INFO 2025-11-09 19:09:21,279 basehttp "GET /profile/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:09:21,315 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:09:21,455 basehttp "GET /dashboard/ HTTP/1.1" 200 13736
+INFO 2025-11-09 19:09:23,445 basehttp "GET /diagnosis/record/ HTTP/1.1" 200 12884
+INFO 2025-11-09 19:09:23,481 basehttp "GET /static/js/audio-recorder.js HTTP/1.1" 200 14539
+WARNING 2025-11-09 19:09:38,384 log Not Found: /diagnosis/upload/
+WARNING 2025-11-09 19:09:38,385 basehttp "POST /diagnosis/upload/ HTTP/1.1" 404 38
+INFO 2025-11-09 19:09:57,101 basehttp "GET /logout/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:09:57,106 basehttp "GET / HTTP/1.1" 200 9045
+INFO 2025-11-09 19:09:58,401 basehttp "GET /register/ HTTP/1.1" 200 10146
+INFO 2025-11-09 19:10:20,579 basehttp "POST /register/ HTTP/1.1" 302 0
+ERROR 2025-11-09 19:10:20,652 log Internal Server Error: /dashboard/
+Traceback (most recent call last):
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\core\views.py", line 55, in dashboard
+    completed = recordings.filter(status='completed')
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\db\models\query.py", line 1448, in _filter_or_exclude
+    raise TypeError("Cannot filter a query once a slice has been taken.")
+TypeError: Cannot filter a query once a slice has been taken.
+ERROR 2025-11-09 19:10:20,653 basehttp "GET /dashboard/ HTTP/1.1" 500 86444
+INFO 2025-11-09 19:10:57,146 autoreload C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\core\views.py changed, reloading.
+INFO 2025-11-09 19:10:57,597 autoreload Watching for file changes with StatReloader
+INFO 2025-11-09 19:10:58,842 autoreload C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\core\views.py changed, reloading.
+INFO 2025-11-09 19:10:59,275 autoreload Watching for file changes with StatReloader
+INFO 2025-11-09 19:11:01,287 basehttp "GET /dashboard/ HTTP/1.1" 200 12299
+INFO 2025-11-09 19:11:04,147 basehttp "GET /diagnosis/record/ HTTP/1.1" 200 12884
+ERROR 2025-11-09 19:11:25,108 views Upload failed: 'Settings' object has no attribute 'MAX_AUDIO_FILE_SIZE'
+ERROR 2025-11-09 19:11:25,109 log Internal Server Error: /diagnosis/upload/
+ERROR 2025-11-09 19:11:25,109 basehttp "POST /diagnosis/upload/ HTTP/1.1" 500 69
+INFO 2025-11-09 19:11:31,614 basehttp "GET /profile/ HTTP/1.1" 200 10667
+INFO 2025-11-09 19:11:40,143 basehttp "GET /diagnosis/recordings/ HTTP/1.1" 200 9183
+INFO 2025-11-09 19:11:41,085 basehttp "GET /diagnosis/record/ HTTP/1.1" 200 12884
+INFO 2025-11-09 19:12:41,238 autoreload Watching for file changes with StatReloader
+INFO 2025-11-09 19:12:43,497 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:12:43,554 basehttp "GET /dashboard/ HTTP/1.1" 200 10980
+INFO 2025-11-09 19:12:49,277 basehttp "GET /diagnosis/record/ HTTP/1.1" 200 12884
+ERROR 2025-11-09 19:13:10,054 views Upload failed: 'NoneType' object has no attribute 'year'
+ERROR 2025-11-09 19:13:10,054 log Internal Server Error: /diagnosis/upload/
+ERROR 2025-11-09 19:13:10,055 basehttp "POST /diagnosis/upload/ HTTP/1.1" 500 54
+INFO 2025-11-09 19:13:31,588 autoreload C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\diagnosis\models.py changed, reloading.
+INFO 2025-11-09 19:13:32,004 autoreload Watching for file changes with StatReloader
+INFO 2025-11-09 19:13:47,459 views Recording 1 uploaded by faheem_cp
+INFO 2025-11-09 19:13:51,631 basehttp "POST /diagnosis/upload/ HTTP/1.1" 201 99
+INFO 2025-11-09 19:13:53,675 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:13:55,670 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:13:57,690 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:13:59,672 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:14:01,682 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:14:03,680 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:14:05,676 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:14:07,668 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:14:09,677 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:14:11,670 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:14:13,776 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:14:15,674 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:14:17,679 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:14:19,667 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:14:21,681 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:14:23,676 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:14:25,667 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:14:27,666 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:14:30,008 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:14:32,008 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:14:34,006 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:14:36,018 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:14:38,012 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:14:40,010 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:14:41,999 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:14:44,016 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:14:46,008 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:14:48,002 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:14:50,008 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:14:52,012 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:14:54,010 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:14:56,015 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:14:58,125 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:14:59,672 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:15:01,672 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:15:03,667 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:15:05,668 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:15:07,680 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+WARNING 2025-11-09 19:15:07,895 log Not Found: /favicon.ico
+WARNING 2025-11-09 19:15:07,896 basehttp "GET /favicon.ico HTTP/1.1" 404 3494
+INFO 2025-11-09 19:15:09,676 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:15:11,676 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:15:13,681 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:15:15,674 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:15:17,666 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:15:19,667 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:15:21,668 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:15:23,674 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:15:25,675 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:15:27,667 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:15:29,677 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:15:31,667 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:15:33,676 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:15:35,671 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:15:37,677 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:15:39,671 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:15:41,667 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:15:43,669 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:15:45,680 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:15:47,679 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:15:49,681 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:15:51,671 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:15:53,681 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:15:55,677 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:15:57,675 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:15:59,672 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:16:01,671 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:16:03,671 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:16:05,678 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:16:07,671 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:16:09,679 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:16:11,681 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:16:13,676 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:16:15,670 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:16:17,680 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:16:19,676 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:16:21,673 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:16:23,668 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:16:25,680 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:16:27,673 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:16:29,770 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:16:31,670 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:16:33,681 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:16:35,680 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:16:37,679 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:16:39,673 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:16:41,773 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:16:43,667 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:16:45,679 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:16:47,677 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:16:49,674 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:16:51,668 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:16:53,668 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:16:55,666 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:16:57,680 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:16:59,677 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:17:01,674 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:17:03,670 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:17:05,682 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:17:07,676 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:17:09,674 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:17:11,668 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:17:13,670 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:17:15,674 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:17:18,000 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:17:20,006 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:17:22,120 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:17:24,028 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:17:26,009 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:17:28,008 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:17:30,002 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:17:32,119 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:17:33,666 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:17:35,680 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:17:38,002 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:17:38,808 autoreload C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\diagnosis\views.py changed, reloading.
+INFO 2025-11-09 19:17:39,288 autoreload Watching for file changes with StatReloader
+INFO 2025-11-09 19:17:40,026 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:17:42,009 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:17:43,667 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:17:45,999 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:17:48,013 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:17:50,004 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:17:52,009 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:17:54,007 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:17:55,896 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:17:58,015 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:18:00,022 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:18:02,113 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:18:04,016 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:18:06,014 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:18:08,001 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:18:10,011 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:18:12,004 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:18:14,012 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:18:16,013 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:18:18,008 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:18:20,000 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:18:22,015 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:18:24,015 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:18:26,013 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:18:28,002 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:18:30,012 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:18:32,010 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:18:34,005 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:18:36,004 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:18:38,005 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:18:40,010 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:18:42,011 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:18:44,005 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:18:46,012 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:18:48,000 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:18:50,007 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:18:52,009 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:18:54,017 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:18:56,010 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:18:58,001 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:19:39,003 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:20:39,010 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:21:39,012 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:22:39,010 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:23:39,020 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:24:39,011 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:24:56,426 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:24:57,670 basehttp "GET /diagnosis/api/status/1/ HTTP/1.1" 200 51
+INFO 2025-11-09 19:24:59,245 basehttp "GET /diagnosis/recordings/ HTTP/1.1" 200 13427
+INFO 2025-11-09 19:25:02,674 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:25:02,819 basehttp "GET /media/recordings/1/2025/11/recording_1762695827414.webm HTTP/1.1" 200 303620
+INFO 2025-11-09 19:25:08,035 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:25:14,028 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:25:20,021 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:25:26,030 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:25:31,441 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:25:37,014 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:25:43,018 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:25:49,022 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:25:55,030 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:26:01,041 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:26:07,028 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:26:13,024 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:26:13,208 basehttp "GET /media/recordings/1/2025/11/recording_1762695827414.webm HTTP/1.1" 304 0
+INFO 2025-11-09 19:26:19,022 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:26:25,015 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:26:31,026 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:26:36,230 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:26:38,924 basehttp "GET /diagnosis/record/ HTTP/1.1" 200 12884
+INFO 2025-11-09 19:26:40,487 basehttp "GET /dashboard/ HTTP/1.1" 200 11991
+INFO 2025-11-09 19:26:44,844 basehttp "GET /profile/ HTTP/1.1" 200 10669
+INFO 2025-11-09 19:26:50,888 basehttp "GET /dashboard/ HTTP/1.1" 200 11991
+INFO 2025-11-09 19:26:51,879 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 19:26:51,926 basehttp "GET /dashboard/ HTTP/1.1" 200 11991
+INFO 2025-11-09 19:27:00,502 basehttp "GET /dashboard/ HTTP/1.1" 200 11991
+INFO 2025-11-09 19:27:03,928 basehttp "GET /diagnosis/record/ HTTP/1.1" 200 12884
+INFO 2025-11-09 19:27:04,790 basehttp "GET /diagnosis/recordings/ HTTP/1.1" 200 13427
+INFO 2025-11-09 19:27:06,641 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:27:11,789 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:27:16,892 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:27:23,036 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:27:29,031 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:27:29,288 basehttp "GET /media/recordings/1/2025/11/recording_1762695827414.webm HTTP/1.1" 304 0
+INFO 2025-11-09 19:27:35,031 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:27:40,295 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:27:45,439 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:27:50,654 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:27:55,777 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:28:00,933 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:28:06,041 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:28:11,182 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:28:16,314 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:28:21,469 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:28:26,605 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:28:31,868 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:28:36,967 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:28:42,087 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:28:47,205 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:28:52,307 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:28:52,385 basehttp "GET /media/recordings/1/2025/11/recording_1762695827414.webm HTTP/1.1" 304 0
+INFO 2025-11-09 19:28:57,442 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:29:02,661 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:29:07,761 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:29:12,862 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:29:18,090 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:29:23,243 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:29:29,124 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:29:35,009 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:29:41,016 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:29:46,251 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:29:51,391 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:29:56,532 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:30:01,639 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:30:06,857 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:30:11,990 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:30:17,129 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:30:22,271 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:30:27,371 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:30:27,460 basehttp "GET /media/recordings/1/2025/11/recording_1762695827414.webm HTTP/1.1" 304 0
+INFO 2025-11-09 19:30:32,496 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:30:37,595 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:30:42,832 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:30:47,943 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:30:53,078 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:30:58,222 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:31:03,364 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:31:09,027 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:31:15,024 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:31:21,122 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:31:27,031 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:31:33,133 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:31:39,034 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:31:45,034 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:31:51,020 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:31:57,022 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:32:03,021 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:32:09,024 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:32:09,218 basehttp "GET /media/recordings/1/2025/11/recording_1762695827414.webm HTTP/1.1" 304 0
+INFO 2025-11-09 19:32:15,030 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:32:21,024 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:32:27,121 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:32:33,022 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:32:39,036 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:32:45,034 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:32:51,029 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:32:57,033 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:33:03,019 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:33:09,034 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:33:15,016 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:33:21,021 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:33:27,021 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:33:33,016 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:33:39,143 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:33:45,123 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:33:50,828 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:33:56,027 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:34:02,026 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:34:02,255 basehttp "GET /media/recordings/1/2025/11/recording_1762695827414.webm HTTP/1.1" 304 0
+INFO 2025-11-09 19:34:08,028 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:34:14,035 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:34:20,030 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:34:26,026 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:34:32,018 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:34:38,020 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:34:44,015 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:34:50,028 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:34:56,026 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:35:02,015 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:35:08,013 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:35:14,022 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:35:20,011 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:35:26,037 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:35:32,026 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:35:38,024 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:35:44,027 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:35:50,016 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:35:56,033 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:36:02,015 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:36:08,026 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:36:08,141 basehttp "GET /media/recordings/1/2025/11/recording_1762695827414.webm HTTP/1.1" 304 0
+INFO 2025-11-09 19:36:14,019 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:36:20,017 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:36:26,017 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:36:32,029 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:36:38,021 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:36:44,017 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:36:50,026 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:36:56,118 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:37:02,017 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:37:08,028 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:37:14,027 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:37:20,022 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:37:26,018 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:37:32,010 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:37:38,024 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:37:44,032 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:37:50,025 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:37:56,033 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:38:02,027 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:38:08,020 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:38:14,045 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:38:20,032 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:38:26,048 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:38:26,242 basehttp "GET /media/recordings/1/2025/11/recording_1762695827414.webm HTTP/1.1" 304 0
+INFO 2025-11-09 19:38:32,017 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:38:38,024 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:38:44,015 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:38:50,018 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:38:56,022 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:39:02,022 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:39:08,008 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:39:14,013 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:39:20,016 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:39:26,021 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:39:32,006 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:39:38,012 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:39:44,014 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:39:50,019 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:39:56,029 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:40:02,023 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:40:08,019 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:40:14,021 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:40:20,010 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:40:26,019 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:40:32,016 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:40:38,019 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:40:44,032 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:40:50,049 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:40:56,021 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:40:56,120 basehttp "GET /media/recordings/1/2025/11/recording_1762695827414.webm HTTP/1.1" 304 0
+INFO 2025-11-09 19:41:02,025 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:41:08,021 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:41:14,023 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:41:20,021 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:41:26,030 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:41:32,009 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:41:38,014 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:41:44,016 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:41:50,025 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:41:56,016 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:42:02,029 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:42:08,017 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:42:14,022 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:42:20,019 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:42:26,020 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:42:32,018 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:42:38,033 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:42:44,128 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:42:50,024 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:42:56,016 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:43:02,131 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:43:08,022 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:43:14,122 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:43:20,026 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:43:26,016 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:43:32,028 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:43:38,023 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:43:44,017 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:43:44,203 basehttp "GET /media/recordings/1/2025/11/recording_1762695827414.webm HTTP/1.1" 304 0
+INFO 2025-11-09 19:43:50,024 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:43:56,011 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:44:02,011 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:44:08,032 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:44:14,019 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:44:20,017 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:44:26,022 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:44:32,016 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:44:38,024 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:44:44,018 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:44:50,020 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:44:56,015 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:45:02,017 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:45:08,014 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:45:14,025 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:45:20,022 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:45:26,024 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:45:32,030 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:45:38,026 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:45:44,033 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:45:50,028 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:45:56,020 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:46:02,020 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:46:08,025 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:46:14,027 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:46:20,027 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:46:26,035 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:46:32,033 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:46:38,028 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:46:44,138 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:46:44,302 basehttp "GET /media/recordings/1/2025/11/recording_1762695827414.webm HTTP/1.1" 304 0
+INFO 2025-11-09 19:46:50,145 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:46:56,023 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:47:02,019 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:47:07,198 basehttp "GET /diagnosis/recordings/1/ HTTP/1.1" 200 10724
+INFO 2025-11-09 19:47:09,535 basehttp "POST /diagnosis/recordings/1/delete/ HTTP/1.1" 302 0
+INFO 2025-11-09 19:47:09,583 basehttp "GET /diagnosis/recordings/ HTTP/1.1" 200 10485
+INFO 2025-11-09 19:52:02,891 basehttp "GET /diagnosis/record/ HTTP/1.1" 200 12884
+INFO 2025-11-09 19:52:18,147 views Recording 2 uploaded by faheem_cp
+INFO 2025-11-09 19:52:22,290 basehttp "POST /diagnosis/upload/ HTTP/1.1" 201 99
+INFO 2025-11-09 19:52:25,020 basehttp "GET /diagnosis/api/status/2/ HTTP/1.1" 200 119
+ERROR 2025-11-09 19:52:27,055 log Internal Server Error: /diagnosis/analysis/1/
+Traceback (most recent call last):
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'static'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\diagnosis\views.py", line 140, in analysis_detail
+    return render(request, 'diagnosis/analysis_detail.html', context)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 254: 'static', expected 'endblock'. Did you forget to register or load this tag?
+ERROR 2025-11-09 19:52:27,056 basehttp "GET /diagnosis/analysis/1/ HTTP/1.1" 500 208707
+INFO 2025-11-09 19:52:52,510 basehttp "GET /diagnosis/analysis/1/ HTTP/1.1" 200 14724
+INFO 2025-11-09 19:52:52,527 basehttp "GET /static/js/analysis-charts.js HTTP/1.1" 200 9170
+INFO 2025-11-09 19:54:12,797 basehttp "GET /diagnosis/analysis/1/ HTTP/1.1" 200 14828
+INFO 2025-11-09 19:54:22,247 basehttp "GET /diagnosis/record/ HTTP/1.1" 200 12884
+INFO 2025-11-09 19:54:23,805 basehttp "GET /diagnosis/recordings/ HTTP/1.1" 200 13957
+INFO 2025-11-09 19:57:31,478 basehttp "GET /diagnosis/recordings/2/ HTTP/1.1" 200 11876
+INFO 2025-11-09 19:57:31,591 basehttp "GET /media/recordings/1/2025/11/recording_1762698138108.webm HTTP/1.1" 200 211850
+INFO 2025-11-09 19:57:40,401 basehttp "GET /diagnosis/analysis/1/ HTTP/1.1" 200 14828
+INFO 2025-11-09 20:02:34,790 basehttp "GET /diagnosis/analysis/1/ HTTP/1.1" 200 14828
+INFO 2025-11-09 20:02:35,753 basehttp "GET /diagnosis/record/ HTTP/1.1" 200 12884
+INFO 2025-11-09 20:03:04,955 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 20:03:05,005 basehttp "GET /dashboard/ HTTP/1.1" 200 13699
+INFO 2025-11-09 20:03:10,157 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 20:03:10,198 basehttp "GET /dashboard/ HTTP/1.1" 200 13699
+INFO 2025-11-09 20:03:13,323 basehttp "GET / HTTP/1.1" 302 0
+INFO 2025-11-09 20:03:13,367 basehttp "GET /dashboard/ HTTP/1.1" 200 13699
+INFO 2025-11-09 20:05:33,888 basehttp "GET /diagnosis/record/ HTTP/1.1" 200 12884
+INFO 2025-11-09 20:05:42,918 views Recording 3 uploaded by faheem_cp
+INFO 2025-11-09 20:05:42,925 basehttp "POST /diagnosis/upload/ HTTP/1.1" 201 99
+INFO 2025-11-09 20:05:44,967 basehttp "GET /diagnosis/api/status/3/ HTTP/1.1" 200 119
+INFO 2025-11-09 20:05:46,398 basehttp "GET /diagnosis/recordings/ HTTP/1.1" 200 18441
+INFO 2025-11-09 20:05:48,541 basehttp "GET /diagnosis/recordings/3/ HTTP/1.1" 200 11948
+INFO 2025-11-09 20:05:48,647 basehttp "GET /media/recordings/1/2025/11/the_3_ways_people_stutter_stuttering_slp_teacher.mp3 HTTP/1.1" 200 279751
+INFO 2025-11-09 20:05:49,918 basehttp "GET /diagnosis/analysis/2/ HTTP/1.1" 200 14828
+INFO 2025-11-09 20:08:24,704 autoreload C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\diagnosis\tasks.py changed, reloading.
+INFO 2025-11-09 20:08:25,190 autoreload Watching for file changes with StatReloader
+INFO 2025-11-09 20:08:28,470 autoreload C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\diagnosis\tasks.py changed, reloading.
+INFO 2025-11-09 20:08:28,898 autoreload Watching for file changes with StatReloader
+INFO 2025-11-09 20:08:37,224 autoreload C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\diagnosis\tasks.py changed, reloading.
+INFO 2025-11-09 20:08:37,667 autoreload Watching for file changes with StatReloader
+ERROR 2025-11-09 20:10:12,451 signal Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x000002747C0162F0>> raised: ImportError("cannot import name 'get_stutter_detector' from 'diagnosis.ai_engine.model_loader' (C:\\Users\\Faheem\\Desktop\\AI\\Slaq\\slaq_project\\diagnosis\\ai_engine\\model_loader.py)")
+Traceback (most recent call last):
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\celery\fixups\django.py", line 137, in validate_models
+    run_checks()
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\checks\registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\checks\urls.py", line 14, in check_url_config
+    return check_resolver(resolver)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\checks\urls.py", line 24, in check_resolver
+    return check_method()
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 494, in check
+    for pattern in self.url_patterns:
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 715, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 708, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\slaq_project\urls.py", line 9, in <module>
+    path('diagnosis/', include('diagnosis.urls')),  # Audio & analysis
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\conf.py", line 38, in include
+    urlconf_module = import_module(urlconf_module)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\diagnosis\urls.py", line 3, in <module>
+    from . import views
+  File "C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\diagnosis\views.py", line 11, in <module>
+    from .tasks import process_audio_recording
+  File "C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\diagnosis\tasks.py", line 9, in <module>
+    from .ai_engine.model_loader import get_stutter_detector
+ImportError: cannot import name 'get_stutter_detector' from 'diagnosis.ai_engine.model_loader' (C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\diagnosis\ai_engine\model_loader.py)
+ERROR 2025-11-09 20:10:12,473 signal Signal handler <promise@0x2747c1a0d60 --> <bound method Celery._autodiscover_tasks of <Celery slaq_project at 0x2747c0160e0>>> raised: ImportError("cannot import name 'get_stutter_detector' from 'diagnosis.ai_engine.model_loader' (C:\\Users\\Faheem\\Desktop\\AI\\Slaq\\slaq_project\\diagnosis\\ai_engine\\model_loader.py)")
+Traceback (most recent call last):
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\vine\promises.py", line 161, in __call__
+    return self.throw()
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\vine\promises.py", line 158, in __call__
+    retval = fun(*final_args, **final_kwargs)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\celery\app\base.py", line 691, in _autodiscover_tasks
+    return self._autodiscover_tasks_from_fixups(related_name)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\celery\app\base.py", line 700, in _autodiscover_tasks_from_fixups
+    return self._autodiscover_tasks_from_names([
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\celery\app\base.py", line 695, in _autodiscover_tasks_from_names
+    return self.loader.autodiscover_tasks(
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\celery\loaders\base.py", line 220, in autodiscover_tasks
+    mod.__name__ for mod in autodiscover_tasks(packages or (),
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\celery\loaders\base.py", line 246, in autodiscover_tasks
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\celery\loaders\base.py", line 246, in <listcomp>
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\celery\loaders\base.py", line 271, in find_related_module
+    raise e
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\celery\loaders\base.py", line 267, in find_related_module
+    return importlib.import_module(module_name)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\diagnosis\tasks.py", line 9, in <module>
+    from .ai_engine.model_loader import get_stutter_detector
+ImportError: cannot import name 'get_stutter_detector' from 'diagnosis.ai_engine.model_loader' (C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\diagnosis\ai_engine\model_loader.py)
+INFO 2025-11-09 20:11:03,511 autoreload C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\diagnosis\tasks.py changed, reloading.
+INFO 2025-11-09 20:11:03,990 autoreload Watching for file changes with StatReloader
+INFO 2025-11-09 20:11:24,620 autoreload C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\diagnosis\tasks.py changed, reloading.
+INFO 2025-11-09 20:11:25,050 autoreload Watching for file changes with StatReloader
+INFO 2025-11-09 20:11:27,285 autoreload C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\diagnosis\tasks.py changed, reloading.
+INFO 2025-11-09 20:11:27,701 autoreload Watching for file changes with StatReloader
+ERROR 2025-11-09 20:11:43,020 signal Signal handler <bound method DjangoFixup.on_import_modules of <celery.fixups.django.DjangoFixup object at 0x000001E16A7F62F0>> raised: ImportError("cannot import name 'get_stutter_detector' from 'diagnosis.ai_engine.model_loader' (C:\\Users\\Faheem\\Desktop\\AI\\Slaq\\slaq_project\\diagnosis\\ai_engine\\model_loader.py)")
+Traceback (most recent call last):
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\celery\fixups\django.py", line 97, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\celery\fixups\django.py", line 137, in validate_models
+    run_checks()
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\checks\registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\checks\urls.py", line 14, in check_url_config
+    return check_resolver(resolver)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\core\checks\urls.py", line 24, in check_resolver
+    return check_method()
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 494, in check
+    for pattern in self.url_patterns:
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 715, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\utils\functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\resolvers.py", line 708, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\slaq_project\urls.py", line 9, in <module>
+    path('diagnosis/', include('diagnosis.urls')),  # Audio & analysis
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\django\urls\conf.py", line 38, in include
+    urlconf_module = import_module(urlconf_module)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\diagnosis\urls.py", line 3, in <module>
+    from . import views
+  File "C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\diagnosis\views.py", line 11, in <module>
+    from .tasks import process_audio_recording
+  File "C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\diagnosis\tasks.py", line 9, in <module>
+    from .ai_engine.model_loader import get_stutter_detector
+ImportError: cannot import name 'get_stutter_detector' from 'diagnosis.ai_engine.model_loader' (C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\diagnosis\ai_engine\model_loader.py)
+ERROR 2025-11-09 20:11:43,023 signal Signal handler <promise@0x1e16a980d60 --> <bound method Celery._autodiscover_tasks of <Celery slaq_project at 0x1e16a7f60e0>>> raised: ImportError("cannot import name 'get_stutter_detector' from 'diagnosis.ai_engine.model_loader' (C:\\Users\\Faheem\\Desktop\\AI\\Slaq\\slaq_project\\diagnosis\\ai_engine\\model_loader.py)")
+Traceback (most recent call last):
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\celery\utils\dispatch\signal.py", line 276, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\vine\promises.py", line 161, in __call__
+    return self.throw()
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\vine\promises.py", line 158, in __call__
+    retval = fun(*final_args, **final_kwargs)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\celery\app\base.py", line 691, in _autodiscover_tasks
+    return self._autodiscover_tasks_from_fixups(related_name)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\celery\app\base.py", line 700, in _autodiscover_tasks_from_fixups
+    return self._autodiscover_tasks_from_names([
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\celery\app\base.py", line 695, in _autodiscover_tasks_from_names
+    return self.loader.autodiscover_tasks(
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\celery\loaders\base.py", line 220, in autodiscover_tasks
+    mod.__name__ for mod in autodiscover_tasks(packages or (),
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\celery\loaders\base.py", line 246, in autodiscover_tasks
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\celery\loaders\base.py", line 246, in <listcomp>
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\celery\loaders\base.py", line 271, in find_related_module
+    raise e
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\site-packages\celery\loaders\base.py", line 267, in find_related_module
+    return importlib.import_module(module_name)
+  File "C:\Users\Faheem\AppData\Local\Programs\Python\Python310\lib\importlib\__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\diagnosis\tasks.py", line 9, in <module>
+    from .ai_engine.model_loader import get_stutter_detector
+ImportError: cannot import name 'get_stutter_detector' from 'diagnosis.ai_engine.model_loader' (C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\diagnosis\ai_engine\model_loader.py)
+INFO 2025-11-09 20:11:49,290 autoreload C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\diagnosis\tasks.py changed, reloading.
+INFO 2025-11-09 20:11:49,755 autoreload Watching for file changes with StatReloader
+INFO 2025-11-09 20:12:05,160 autoreload C:\Users\Faheem\Desktop\AI\Slaq\slaq_project\diagnosis\ai_engine\model_loader.py changed, reloading.
+INFO 2025-11-09 20:12:05,613 autoreload Watching for file changes with StatReloader
+INFO 2025-11-09 20:14:21,355 basehttp "GET /diagnosis/recordings/ HTTP/1.1" 200 18441
+INFO 2025-11-09 20:14:24,577 basehttp "POST /diagnosis/recordings/3/delete/ HTTP/1.1" 302 0
+INFO 2025-11-09 20:14:24,617 basehttp "GET /diagnosis/recordings/ HTTP/1.1" 200 15259
+INFO 2025-11-09 20:14:26,814 basehttp "POST /diagnosis/recordings/2/delete/ HTTP/1.1" 302 0
+INFO 2025-11-09 20:14:26,855 basehttp "GET /diagnosis/recordings/ HTTP/1.1" 200 10485
+INFO 2025-11-09 20:14:27,341 basehttp "GET /diagnosis/record/ HTTP/1.1" 200 12884
+INFO 2025-11-09 20:14:32,472 views Recording 4 uploaded by faheem_cp
+INFO 2025-11-09 20:14:36,590 basehttp "POST /diagnosis/upload/ HTTP/1.1" 201 99
+INFO 2025-11-09 20:14:38,638 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:14:41,015 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:14:42,772 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:14:44,639 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:14:46,634 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:14:48,636 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:14:51,012 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:14:53,005 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:14:55,005 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:14:57,010 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:14:59,027 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:15:01,012 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:15:03,017 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:15:05,002 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:15:07,013 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:15:09,008 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:15:11,004 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:15:13,010 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:15:15,016 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:15:17,018 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:15:19,019 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:15:21,020 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:15:23,001 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:15:25,014 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:15:27,008 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:15:29,012 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:15:31,006 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:15:33,013 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:15:35,023 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:15:37,128 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:15:39,024 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:15:40,816 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:15:43,014 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:15:45,016 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:15:47,022 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:15:49,009 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:15:51,003 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:15:53,028 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:15:55,017 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:15:57,120 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:15:59,016 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:16:01,007 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:16:02,963 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:16:04,639 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:16:07,017 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:16:09,005 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:16:11,007 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:16:13,005 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:16:15,012 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:16:17,021 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:16:19,011 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:16:21,013 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:16:22,644 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:16:25,016 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:16:27,006 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:16:29,011 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:16:31,009 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:16:33,009 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:16:35,022 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:16:37,003 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:16:39,013 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:16:41,011 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:16:43,009 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:16:45,000 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:16:47,022 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:16:49,011 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:16:51,014 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:16:53,013 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:16:55,015 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:16:57,007 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:16:59,021 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:17:01,032 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:17:03,015 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:17:05,008 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:17:07,018 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:17:09,004 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:17:11,010 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:17:13,008 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:17:15,005 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:17:17,004 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:17:19,016 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:17:21,021 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:17:23,012 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:17:39,021 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:18:39,132 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:19:39,057 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 54
+INFO 2025-11-09 20:20:05,669 basehttp "GET /diagnosis/api/status/4/ HTTP/1.1" 200 124
+INFO 2025-11-09 20:20:07,217 basehttp "GET /diagnosis/analysis/3/ HTTP/1.1" 200 16043
+INFO 2025-11-09 20:20:50,346 basehttp "GET /diagnosis/recordings/4/ HTTP/1.1" 200 12049
+INFO 2025-11-09 20:20:50,455 basehttp "GET /media/recordings/1/2025/11/the_3_ways_people_stutter_stuttering_slp_teacher.mp3 HTTP/1.1" 200 279751
+WARNING 2025-11-09 20:20:52,633 log Not Found: /favicon.ico
+WARNING 2025-11-09 20:20:52,633 basehttp "GET /favicon.ico HTTP/1.1" 404 3494
+INFO 2025-11-09 20:21:05,031 basehttp "GET /diagnosis/analysis/3/ HTTP/1.1" 200 16043
+INFO 2025-11-09 20:21:50,476 basehttp "GET /diagnosis/record/ HTTP/1.1" 200 12884
+INFO 2025-11-09 20:22:10,367 views Recording 5 uploaded by faheem_cp
+INFO 2025-11-09 20:22:10,368 basehttp "POST /diagnosis/upload/ HTTP/1.1" 201 99
+ERROR 2025-11-09 20:22:10,679 detect_stuttering Target transcript generation failed: Error opening 'C:\\Users\\Faheem\\Desktop\\AI\\Slaq\\slaq_project\\media\\recordings\\1\\2025\\11\\recording_1762699930321.webm': Format not recognised.
+INFO 2025-11-09 20:22:12,418 basehttp "GET /diagnosis/api/status/5/ HTTP/1.1" 200 226
