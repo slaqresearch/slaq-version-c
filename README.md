@@ -11,6 +11,15 @@ A clean, simplified, and production-ready README for running the full system: Re
 ```sh
 python -m venv venv
 venv\Scripts\activate
+pip install celery 
+pip install dotenv 
+pip install django 
+pip install django_celery_results
+pip install psycopg2-binary
+pip install librosa
+pip install fastdtw
+pip install redis
+
 pip install --upgrade pip
 ```
 
@@ -98,7 +107,8 @@ pip install -r requirements.txt
 ### 3. Run Celery
 
 ```sh
-celery -A slaq_project worker --pool=solo -l info
+pip install eventlet
+celery -A slaq_project worker --pool=solo -l info -p eventlet
 ```
 
 ---
