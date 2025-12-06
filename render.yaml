@@ -1,0 +1,78 @@
+# Render Blueprint - render.yaml
+# Deploy with: https://render.com/docs/blueprint-spec
+
+services:
+  # Web Service
+  - type: web
+    name: slaq-web
+    env: python
+    region: singapore  # Match your Supabase region
+    plan: starter
+    buildCommand: |
+      pip install -r requirements.txt
+      python manage.py collectstatic --noinput
+      python manage.py migrate
+    startCommand: gunicorn slaq_project.wsgi:application --workers 3 --timeout 120
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.0
+      - key: ENVIRONMENT
+        value: production
+      - key: DEBUG
+        value: "False"
+      - key: DJANGO_SECRET_KEY
+        generateValue: true
+      - key: DATABASE_URL
+        fromDatabase:
+          name: slaq-db
+          property: connectionString
+      - key: CELERY_BROKER_URL
+        fromService:
+          name: slaq-redis
+          type: redis
+          property: connectionString
+      # Add these manually in Render dashboard:
+      # - SUPABASE_URL
+      # - SUPABASE_ANON_KEY
+      # - SUPABASE_SERVICE_ROLE_KEY
+      # - SUPABASE_BUCKET_NAME
+      # - ALLOWED_HOSTS
+
+  # Celery Worker
+  - type: worker
+    name: slaq-worker
+    env: python
+    region: singapore
+    plan: starter
+    buildCommand: pip install -r requirements.txt
+    startCommand: celery -A slaq_project worker --loglevel=info --concurrency=2
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.0
+      - key: ENVIRONMENT
+        value: production
+      - key: DJANGO_SECRET_KEY
+        fromService:
+          name: slaq-web
+          type: web
+          envVarKey: DJANGO_SECRET_KEY
+      - key: DATABASE_URL
+        fromDatabase:
+          name: slaq-db
+          property: connectionString
+      - key: CELERY_BROKER_URL
+        fromService:
+          name: slaq-redis
+          type: redis
+          property: connectionString
+
+databases:
+  - name: slaq-db
+    region: singapore
+    plan: starter
+    databaseName: slaq_d_db
+    user: slaq_user
+
+# Note: Redis is not directly supported in render.yaml
+# You need to create a Redis instance manually or use an external provider
+# Then set CELERY_BROKER_URL in the dashboard

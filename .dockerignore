@@ -1,0 +1,59 @@
+# Docker ignore file - exclude unnecessary files from Docker build context
+
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment files (secrets!)
+.env
+.env.*
+!.env.example.template
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Documentation
+*.md
+!README.md
+Docs/
+
+# Local development
+db.sqlite3
+*.log
+logs/
+
+# Media files (should be in external storage)
+media/
+
+# ML models (download at runtime or mount as volume)
+ml_models/
+
+# Build artifacts
+staticfiles/
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db

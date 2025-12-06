@@ -61,9 +61,12 @@ def process_audio_recording(self, recording_id, language='english'):
             converted_path = tf.name
             tf.close()
 
+            # Get sample rate from settings
+            sample_rate = getattr(settings, 'AUDIO_SAMPLE_RATE', 16000)
+            
             cmd = [
                 'ffmpeg', '-y', '-i', audio_path,
-                '-ac', '1', '-ar', str(settings.AUDIO_SAMPLE_RATE),
+                '-ac', '1', '-ar', str(sample_rate),
                 converted_path
             ]
             subprocess.run(cmd, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)

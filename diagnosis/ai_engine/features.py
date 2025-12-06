@@ -3,12 +3,26 @@ import torchaudio
 import numpy as np
 from transformers import BertTokenizer, BertModel, Wav2Vec2FeatureExtractor
 
+
+def _get_sample_rate():
+    """Get sample rate from Django settings."""
+    try:
+        from django.conf import settings
+        return getattr(settings, 'AUDIO_SAMPLE_RATE', 16000)
+    except Exception:
+        return 16000
+
+
 class HybridFeatureExtractor:
     """
     Core Part Extracted: utils.py & train.py
     Combines Acoustic features (Wav2Vec2) with Linguistic features (BERT).
+    
+    Configuration is loaded from Django settings at runtime.
     """
     def __init__(self):
+        self.sample_rate = _get_sample_rate()
+        
         # Text Encoder
         self.bert_tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
         self.bert_model = BertModel.from_pretrained('bert-base-uncased')
@@ -26,12 +40,16 @@ class HybridFeatureExtractor:
 
         # 2. Get Audio Matrix (Signal)
         waveform, sr = torchaudio.load(audio_path)
-        if sr != 16000:
-            resampler = torchaudio.transforms.Resample(sr, 16000)
+        if sr != self.sample_rate:
+            resampler = torchaudio.transforms.Resample(sr, self.sample_rate)
             waveform = resampler(waveform)
             
         # Extract features (Shape: 1, TimeSteps)
-        audio_features = self.audio_extractor(waveform.squeeze().numpy(), sampling_rate=16000, return_tensors="np").input_values
+        audio_features = self.audio_extractor(
+            waveform.squeeze().numpy(), 
+            sampling_rate=self.sample_rate, 
+            return_tensors="np"
+        ).input_values
         audio_matrix = audio_features.squeeze()
 
         # 3. Concatenate (The "Secret Sauce")

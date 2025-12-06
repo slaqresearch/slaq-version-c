@@ -1592,3 +1592,11 @@ INFO 2025-11-25 15:04:20,561 autoreload Watching for file changes with StatReloa
 INFO 2025-11-25 15:04:33,454 autoreload C:\Users\Faheem\Desktop\AI\slaq-version-d\diagnosis\ai_engine\detect_stuttering.py changed, reloading.
 INFO 2025-11-25 15:04:34,171 autoreload Watching for file changes with StatReloader
 INFO 2025-11-25 15:05:13,558 autoreload C:\Users\Faheem\Desktop\AI\slaq-version-d\slaq_project\settings.py changed, reloading.
+INFO 2025-12-06 17:35:40,329 views Audio 7 uploaded by faheem
+WARNING 2025-12-06 17:35:58,048 tasks Audio conversion failed or ffmpeg not found, using original file: 'Settings' object has no attribute 'AUDIO_SAMPLE_RATE'
+INFO 2025-12-06 18:23:51,548 views Audio 8 uploaded by anfas
+INFO 2025-12-06 18:23:55,801 tasks Converted audio to WAV for analysis: C:\Users\Faheem\AppData\Local\Temp\tmp_qitr19a.wav
+INFO 2025-12-06 18:25:12,475 views Audio 9 uploaded by anfas
+INFO 2025-12-06 18:25:13,249 tasks Converted audio to WAV for analysis: C:\Users\Faheem\AppData\Local\Temp\tmpfhiezs6b.wav
+INFO 2025-12-06 18:33:16,970 views Audio 10 uploaded by anfas
+INFO 2025-12-06 18:33:17,466 tasks Converted audio to WAV for analysis: C:\Users\Faheem\AppData\Local\Temp\tmp10txxfl5.wav

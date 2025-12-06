@@ -9,8 +9,11 @@ let recordingStartTime = null;
 let timerInterval = null;
 let recordedBlob = null;
 let audioElement = null;
+let maxDurationTimer = null;
 // Track the mime type used for recording
 let currentMimeType = 'audio/webm'; 
+const MAX_DURATION_SECONDS = 120; // max recording duration (seconds)
+const UPLOAD_TIMEOUT_MS = 300000; // 5 minutes
 
 function initAudioRecorder() {
     const startBtn = document.getElementById('start-recording-btn');
@@ -72,14 +75,25 @@ async function startRecording() {
         
         mediaRecorder.start();
         recordingStartTime = Date.now();
-        
+            // Enforce maximum recording duration for mobile clients
+            if (MAX_DURATION_SECONDS && MAX_DURATION_SECONDS > 0) {
+                if (maxDurationTimer) clearTimeout(maxDurationTimer);
+                maxDurationTimer = setTimeout(() => {
+                    try {
+                        stopRecording();
+                        document.getElementById('status-text').textContent = 'Maximum recording duration reached';
+                        alert('Maximum recording duration reached');
+                    } catch (e) { console.warn('Error stopping after max duration', e); }
+                }, MAX_DURATION_SECONDS * 1000);
+            }
         updateUIForRecording(true);
         startTimer();
         startWaveformVisualization();
         
     } catch (error) {
         console.error('Error starting recording:', error);
-        alert('Could not access microphone. Please ensure you have granted microphone permissions.');
+        // Show friendly instructions for mobile users
+        showPermissionInstructions();
     }
 }
 
@@ -88,6 +102,10 @@ function stopRecording() {
         mediaRecorder.stop();
         stopTimer();
         updateUIForRecording(false);
+        if (maxDurationTimer) {
+            clearTimeout(maxDurationTimer);
+            maxDurationTimer = null;
+        }
     }
 }
 
@@ -150,22 +168,60 @@ async function uploadRecording() {
     try {
         document.getElementById('upload-progress').classList.remove('hidden');
         document.getElementById('upload-recording-btn').disabled = true;
-        
-        const response = await fetch('/diagnosis/upload/', {
-            method: 'POST',
-            body: formData,
-            headers: { 'X-CSRFToken': csrfToken }
-        });
-        
-        const data = await response.json();
-        
-        if (response.ok && data.success) {
-            document.getElementById('upload-progress-bar').style.width = '100%';
-            document.getElementById('upload-status-text').textContent = 'Upload complete! Processing...';
-            pollRecordingStatus(data.recording_id);
-        } else {
-            throw new Error(data.error || 'Upload failed');
-        }
+        // Use XMLHttpRequest for better mobile progress support and timeout
+        const xhr = new XMLHttpRequest();
+        xhr.open('POST', '/diagnosis/upload/');
+        xhr.timeout = UPLOAD_TIMEOUT_MS; // 5 minutes
+        xhr.setRequestHeader('X-CSRFToken', csrfToken);
+
+        // Upload progress
+        xhr.upload.onprogress = function(event) {
+            const bar = document.getElementById('upload-progress-bar');
+            if (event.lengthComputable) {
+                const percent = Math.round((event.loaded / event.total) * 100);
+                if (bar) bar.style.width = percent + '%';
+                document.getElementById('upload-status-text').textContent = `Uploading... ${percent}%`;
+            } else {
+                // Unknown size — show indeterminate progress
+                if (bar) bar.style.width = '60%';
+                document.getElementById('upload-status-text').textContent = 'Uploading...';
+            }
+        };
+
+        xhr.ontimeout = function() {
+            console.error('Upload timed out');
+            alert('Upload timed out. Please try again.');
+            document.getElementById('upload-progress').classList.add('hidden');
+            document.getElementById('upload-recording-btn').disabled = false;
+        };
+
+        xhr.onerror = function(e) {
+            console.error('Upload error', e);
+            alert('Upload failed due to a network error.');
+            document.getElementById('upload-progress').classList.add('hidden');
+            document.getElementById('upload-recording-btn').disabled = false;
+        };
+
+        xhr.onload = function() {
+            try {
+                const responseText = xhr.responseText;
+                const data = JSON.parse(responseText);
+                if (xhr.status >= 200 && xhr.status < 300 && data.success) {
+                    document.getElementById('upload-progress-bar').style.width = '100%';
+                    document.getElementById('upload-status-text').textContent = 'Upload complete! Processing...';
+                    pollRecordingStatus(data.recording_id);
+                } else {
+                    throw new Error(data.error || 'Upload failed');
+                }
+            } catch (err) {
+                console.error('Upload parse/response error:', err);
+                alert('Upload failed: ' + (err.message || 'Unknown error'));
+                document.getElementById('upload-progress').classList.add('hidden');
+                document.getElementById('upload-recording-btn').disabled = false;
+            }
+        };
+
+        xhr.send(formData);
         
     } catch (error) {
         console.error('Upload error:', error);
@@ -285,6 +341,50 @@ function stopWaveformVisualization() {
     }
 }
 
+// Permission instructions helper (mobile friendly)
+function showPermissionInstructions() {
+    // Try to show a friendly in-page modal with instructions for mobile users
+    const existing = document.getElementById('permission-instructions');
+    if (existing) {
+        existing.classList.remove('hidden');
+        return;
+    }
+
+    const container = document.createElement('div');
+    container.id = 'permission-instructions';
+    container.style.position = 'fixed';
+    container.style.left = '0';
+    container.style.right = '0';
+    container.style.top = '0';
+    container.style.bottom = '0';
+    container.style.background = 'rgba(0,0,0,0.6)';
+    container.style.display = 'flex';
+    container.style.alignItems = 'center';
+    container.style.justifyContent = 'center';
+    container.style.zIndex = '9999';
+
+    container.innerHTML = `
+        <div style="background:#fff;padding:20px;border-radius:8px;max-width:420px;width:90%;text-align:left;">
+            <h3 style="margin:0 0 8px 0;font-size:18px;font-weight:600">Microphone Access Required</h3>
+            <p style="margin:0 0 12px 0;color:#444">To record on mobile, please allow microphone access in your browser. On most devices:
+            <ul style="margin:8px 0 12px 18px;color:#444">
+                <li>Open the browser's site settings</li>
+                <li>Allow microphone access for this site</li>
+                <li>Reload the page and try again</li>
+            </ul>
+            </p>
+            <div style="display:flex;justify-content:flex-end;gap:8px;margin-top:8px;">
+                <button id="permission-instructions-close" style="background:#ef4444;color:#fff;padding:8px 12px;border-radius:6px;border:none;">Close</button>
+            </div>
+        </div>
+    `;
+
+    document.body.appendChild(container);
+    document.getElementById('permission-instructions-close').addEventListener('click', () => {
+        container.remove();
+    });
+}
+
 function updateUIForRecording(isRecording) {
     const startBtn = document.getElementById('start-recording-btn');
     const stopBtn = document.getElementById('stop-recording-btn');
@@ -332,6 +432,7 @@ function initFileUpload() {
             try {
                 document.getElementById('upload-progress').classList.remove('hidden');
                 form.querySelector('button[type=submit]').disabled = true;
+                // For file-upload form we can still use fetch, but keep UX consistent
                 const response = await fetch('/diagnosis/upload/', {
                     method: 'POST', body: formData, headers: { 'X-CSRFToken': csrfToken }
                 });
